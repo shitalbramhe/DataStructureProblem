@@ -13,12 +13,11 @@ namespace Datastructure
             LinkedList linkedlist = new LinkedList();
             linkedlist.Add(56);
             linkedlist.Add(30);
+            linkedlist.Add(40);
             linkedlist.Add(70);
             linkedlist.Display();
-            int position = linkedlist.Search(30);
-            position++;
-            linkedlist.InsertAtParticularPosition(position, 40);
-            linkedlist.Display();
+            int position = linkedlist.Search(40);
+            linkedlist.DeleteNodeAtParticularPosition(position);
         }
     }
 }
