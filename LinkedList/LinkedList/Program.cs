@@ -10,8 +10,18 @@ namespace Datastructure
     {
         static void Main(string[] args)
         {
-            Queue queue = new Queue(); 
+            Queue queue = new Queue();
             queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
+           /*queue.Enqueue(56);
             queue.Enqueue(30);
             queue.Enqueue(70);
             queue.Display(); 
