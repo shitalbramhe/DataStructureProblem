@@ -14,8 +14,9 @@ namespace Datastructure
             linkedlist.Add(56);
             linkedlist.Add(30);
             linkedlist.Add(70);
-            linkedlist.RemoveLastNode();
-            linkedlist.Display(); 
+            linkedlist.Display();
+            int search = linkedlist.Search(30);
+            Console.WriteLine("The searched data is at position {0}", search);
         }
     }
 }
